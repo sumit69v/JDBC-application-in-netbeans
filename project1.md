@@ -82,8 +82,9 @@ insert into book_by_author values('102938',6);
       - Click Import button
       - MySQL JDBC driver
       - OK
-     Note: The MySQL JDBC Driver is already shipped with NetBeans. 
-     There is no need to install it separately. Other drivers, which may not be shipped with NetBeans, may need to be imported as a separate jar file. In such a case, use the Add JAR/Folder button to import it in the current project.
+ 
+Note: The MySQL JDBC Driver is already shipped with NetBeans. 
+There is no need to install it separately. Other drivers, which may not be shipped with NetBeans, may need to be imported as a separate jar file. In such a case, use the Add JAR/Folder button to import it in the current project.
    
 ### Creating Application 
 ```
