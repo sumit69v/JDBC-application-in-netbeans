@@ -1,17 +1,17 @@
 # JDBC connection in Netbeans 
 
 ### Used:
-Netbeans 8.2
-JDK 8
-MySQL in MAMP (localhost)
+* Netbeans 8.2
+* JDK 8
+* MySQL in MAMP (localhost)
 
 ### Creating database in MySQL
 CREATE simplejdbcapplication;
 USE simplejdbcapplicaton;
 
 ### SQL DDL:
-create tables - 
-
+#### create tables - 
+```
 create table books
 (
    isbn varchar(20) primary key,
@@ -35,9 +35,9 @@ create table book_by_author
    foreign key(author_id)
       references authors(author_id)
 );
-
-Insert values in tables -
-
+```
+#### Insert values in tables -
+```
 insert into books values('123456','Discrete Math',
    'Second',56.78);
 insert into books values('234567','Integral Calculus',
@@ -68,7 +68,7 @@ insert into book_by_author values('345678',6);
 insert into book_by_author values('456789',7);
 insert into book_by_author values('567890',4);
 insert into book_by_author values('102938',6);
-
+```
 
 ### Create Java project
 1. File - New Project 
@@ -85,8 +85,9 @@ insert into book_by_author values('102938',6);
      Note: The MySQL JDBC Driver is already shipped with NetBeans. 
      There is no need to install it separately. Other drivers, which may not be shipped with NetBeans, may need to be imported as a separate jar file. In such a case, use the Add JAR/Folder button to import it in the current project.
    
-  Creating Application 
-  package simplejdbcapplication;
+### Creating Application 
+```
+package simplejdbcapplication;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -134,6 +135,6 @@ public class SimpleJDBCApplication {
       }
    }
 }
+```
 
-
-Finally Run - Run Project (Ctrl + F11)
+### Finally Run - Run Project (Ctrl + F11)
