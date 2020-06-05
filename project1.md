@@ -1,15 +1,15 @@
-JDBC connection in Netbeans 
+# JDBC connection in Netbeans 
 
-Used:
+### Used:
 Netbeans 8.2
 JDK 8
 MySQL in MAMP (localhost)
 
-Creating database in MySQL
+### Creating database in MySQL
 CREATE simplejdbcapplication;
 USE simplejdbcapplicaton;
 
-SQL DDL:
+### SQL DDL:
 create tables - 
 
 create table books
@@ -70,7 +70,7 @@ insert into book_by_author values('567890',4);
 insert into book_by_author values('102938',6);
 
 
-Create Java project
+### Create Java project
 1. File - New Project 
     Java - Java Application 
 2. Give projet name 'simplejdbcapplication'
