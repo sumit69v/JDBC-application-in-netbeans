@@ -99,7 +99,7 @@ import java.sql.Statement;
 public class SimpleJDBCApplication {
 
    static final String DB_URL =
-      "jdbc:mysql://localhost:3306/simplejdbcapplication";
+      "jdbc:mysql://localhost:8889/simplejdbcapplication";
    static final String DB_DRV =
       "com.mysql.jdbc.Driver";
    static final String DB_USER = "root";
