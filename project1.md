@@ -75,6 +75,9 @@ insert into book_by_author values('102938',6);
     Java - Java Application 
 2. Give projet name 'simplejdbcapplication'
     Finish
+    ![GitHub Logo](/1.png)
+    Format: ![Alt Text](url)
+    
 3. Add MySQL jdbc driver
     Right click project - properties
     Libaries
@@ -82,7 +85,9 @@ insert into book_by_author values('102938',6);
       - Click Import button
       - MySQL JDBC driver
       - OK
- 
+      ![GitHub Logo](/2.png)
+      Format: ![Alt Text](url)
+
 Note: The MySQL JDBC Driver is already shipped with NetBeans. 
 There is no need to install it separately. Other drivers, which may not be shipped with NetBeans, may need to be imported as a separate jar file. In such a case, use the Add JAR/Folder button to import it in the current project.
    
